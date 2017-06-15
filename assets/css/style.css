@@ -1,30 +1,67 @@
-aside{
+
+.headerDiv{
+	border-width: 2px;
+	border-bottom: solid;
+	border-color: #777777;
+	background-color: white;
+	padding-top: 55px;
+	clear: both;
+}
+
+.header1{
+	padding: 15px;
 	float: left;
-	width: 270px;
+	margin: 0 50px 0 80px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: auto;
+
+}
+
+nav{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	background-color: inherit;
+	color: #777777;
+	padding: 45px 25px 0 0;
+
+
+}
+
+body{
+	margin: 15px;
+	position: absolute;
+	left: auto;
+}
+
+main{
+	padding: 15px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	width: 960px;
+	background-image: url("assets/images/wov.png");
+
 }
 
 section{
 	float: left;
 	width: 650px;
-}
-
-main{
-	background-color: #ffffff;
-	border-color: #dddddd;
-	width: 960px;
-
-}
-
-.header1{
-	padding: 15px;
-
+	padding: 30px;
 }
 
 .header2{
 	padding: 15px;
-	border-color: #dddddd;
+	border-color: #cccccc;
 
 }
+
+aside{
+	float: left;
+	width: 270px;
+	padding: 30px;
+}
+
+
 .header3{
 	padding: 15px;
 
@@ -32,18 +69,25 @@ main{
 
 footer{
 	background-color: #666666;
+	padding: 15px;
+	clear: left;
+	color: #777777;
 
 
 }
 
-h1{
+h1,h2,h3{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-h2{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
 
 p{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a{
+	padding: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
 }
