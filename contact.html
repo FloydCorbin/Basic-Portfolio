@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Floyd Corbin</title>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-	<link rel="stylesheet" href="assets/css/reset.css">
-
-	<link rel="stylesheet" href="assets/css/stye.css">
 </head>
 	<body>
-		<header><h1>Floyd Corbin</h1></header>
-		<nav>
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</nav>
+		<div class="headerDiv">
+			<header class="header1"><h1>Floyd Corbin</h1></header>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
 
-		<main>
-			<section>
+
+			<main>
+			
 				<header>
-					<h1>Contact</h1>
+					<h2 class="header2">Contact Me</h1>
 				</header>
-				
-			</section>
+					<form action="null">
+					  	Name:<br><br>
+					  	<input type="text" name="Name" value="your name">
+					  	<br><br><br>
+
+					  	Email:<br><br>
+					  	<input type="text" name="Emal" value="username@example.com">
+					  	<br>
+					  	<br>
+					  	Message:<br>
+						<textarea rows="4" cols="50" name="comment" form="usrform" value="Comment here"></textarea>						
+						<br>
+						<br>
+					  	<input type="submit" value="Submit">
+				</form> 
+			</main>
 			<aside>
 				<header>
-					<h2>Connect with Me</h2>
+					<h3 class="header3">Connect with Me</h2>
 				</header>
-				<img src="assets/images/github.png" alt="Github">
-				<img src="assets/images/LinkedIn.png" alt="LinkedIn">
-				<img src="assets/images/StackOverflow.png" alt="StackOverflow">
+				<a href="https://github.com/FloydCorbin"><img height="50"src="assets/images/github.png" alt="Github" hspace="0"></a> 
+
+				<a href="https://www.linkedin.com/in/floydcorbin/"><img height="50" src="assets/images/LinkedIn.png" alt="LinkedIn" hspace="0"></a> 
+				
+				<a href="https://stackoverflow.com/users/8091165/floydcorbin"><img height="50" src="assets/images/StackOverflow.png" alt="StackOverflow" hspace="0"></a>
+				
 			</aside>
-		</main>
+		
 		<footer>
-			<div class="footer">
-				&copy; Copyright 2017 Floyd Corbin 
+			<div>
+				<p style="text-align: center; padding-top: 20px">&copy; Copyright 2017 Floyd Corbin</p> 
 			</div>
 		</footer>
 	</body>
